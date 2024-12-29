@@ -11,6 +11,7 @@ You'll need git, a Java 17 SDK and Gradle for this
 
     # first time only
     sudo apt install git gradle openjdk-17
+    or pkg install git gradle openjdk-17
 
 Create a directory for the Android SDK (e.g. `android-sdk`) and point the `ANDROID_HOME` variable to it.
 
