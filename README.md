@@ -7,11 +7,10 @@ This project contains several sub-projects:
 
 ### PREREQUISITES FOR BUILDING
 
-You'll need git, a Java 11 SDK and Gradle between 4.4 and 6.9.x for this. We'll assume Ubuntu 24.04 LTS (Noble Numbat)
-for the package installs, which comes with OpenJDK 11 and Gradle 4.4.1 out of the box.
+You'll need git, a Java 17 SDK and Gradle for this
 
     # first time only
-    sudo apt install git gradle openjdk-11-jdk
+    sudo apt install git gradle openjdk-17
 
 Create a directory for the Android SDK (e.g. `android-sdk`) and point the `ANDROID_HOME` variable to it.
 
