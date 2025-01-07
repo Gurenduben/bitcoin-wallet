@@ -1,5 +1,17 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  }
+  "name": "Android Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "java.home": "/usr/local/sdkman/candidates/java/current"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-node-azure-pack",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "postCreateCommand": "sdkmanager --update",
+  "remoteUser": "vscode"
 }
