@@ -8,8 +8,10 @@ This project contains several sub-projects:
 ### PREREQUISITES FOR BUILDING
 
 You'll need git, a Java 17 SDK and Gradle 4.4 for this
-download gradle 4.4 from this [link]
+download gradle 4.4 from
 {https://gradle.org/next-steps/?version=4.4&format=bin}
+
+
 Create a directory for the Android SDK (e.g. `android-sdk`) and point the `ANDROID_HOME` variable to it.
 
 Download the [Android SDK Tools](https://developer.android.com/studio/index.html#command-tools)
